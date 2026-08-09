@@ -1,0 +1,7 @@
+.panel-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    padding: 1.5em;
+    overflow-y: scroll;
+}

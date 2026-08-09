@@ -1,0 +1,26 @@
+.navbar {
+    width: calc(100% - 3em);
+    display: flex;
+    background-color: var(--secondary-color);
+    border-radius: .3em;
+    padding: .4em;
+    margin: 1em 1.5em;
+}
+.navbar__button {
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 50%;
+    border-radius: .3em;
+    color: rgba(0, 0, 0, .5);
+    padding: .5em 0;
+    cursor: pointer;
+    transition: color 350ms linear,
+                background-color 350ms linear,
+                box-shadow 350ms linear;
+}
+.navbar__button_active {
+    color: var(--primary-color);
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
+}

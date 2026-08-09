@@ -1,0 +1,22 @@
+.panel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em;
+    overflow-y: scroll;
+    row-gap: 1em;
+}
+.panel-container__button {
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    padding: .7em 0;
+    cursor: pointer;
+    border-radius: .3em;
+    background-color: var(--primary-color);
+    transition: box-shadow 200ms linear;
+}
+.panel-container__button:hover {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}

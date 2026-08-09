@@ -1,0 +1,70 @@
+.flex-item {
+    display: inline-flex;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .1);
+    width: 133.68px;
+    height: 68px;
+    justify-content: space-between;
+    border-radius: .3em;
+    overflow: hidden;
+}
+.flex-item__block {
+    position: relative;
+    cursor: pointer;
+    flex-grow: 1;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+.flex-item__block:hover
+.flex-item__edit {
+    opacity: 1;
+    cursor: pointer;
+}
+.flex-item__divider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #10b981;
+}
+.flex-item__text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item__edit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-color);
+    opacity: 0;
+    background-color: #dbeafee6;
+    transition: opacity 300ms linear;
+}
+.flex-item__delete {
+    padding: 0 .5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 300ms linear;
+}
+.flex-item__delete:hover {
+    background-color: #fee2e2;
+}
+.flex-item__delete:hover
+.flex-item__delete-svg {
+    color: #dc2626;
+}
+.flex-item__delete-svg {
+    color: rgba(0, 0, 0, .5);
+    transition: color 300ms linear;
+}
