@@ -15,6 +15,9 @@ Features Add new flex items Remove existing items Change display Configure flex-
 
 Run the project:
 
+Simply click here: https://mrd-test.github.io/FlexB-Playground/
+
+
 npm run dev Project Structure src/ ├── components/ ├── App.jsx ├── main.jsx └── 
 
 This project was created to practice React development and improve understanding of CSS Flexbox by providing an interactive visual playground.Flexbox Playground 🎨
