@@ -2,6 +2,11 @@ Flexbox Playground 🎨
 
 An interactive React application for learning and experimenting with CSS Flexbox properties.
 
+Preview:
+
+<img width="900" height="923" alt="demo1" src="https://github.com/user-attachments/assets/400540e1-cf6e-47b1-bf8e-e6c400f88653" />
+
+
 About Project
 
 Flexbox Playground allows users to create, manage, and customize flex items in real time. The application provides an interactive interface for changing Flexbox properties and immediately seeing how they affect the layout.
