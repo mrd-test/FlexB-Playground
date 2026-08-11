@@ -4,7 +4,7 @@ An interactive React application for learning and experimenting with CSS Flexbox
 
 Preview:
 
-<img width="900" height="923" alt="demo1" src="https://github.com/user-attachments/assets/400540e1-cf6e-47b1-bf8e-e6c400f88653" />
+<img width="900" height="600" alt="demo1" src="https://github.com/user-attachments/assets/400540e1-cf6e-47b1-bf8e-e6c400f88653" />
 
 
 About Project
